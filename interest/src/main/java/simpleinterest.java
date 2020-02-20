@@ -1,0 +1,11 @@
+
+public class simpleinterest {
+public static  double calculate(int p,int t,int r) {
+	double ans=0;
+	ans=(float) (p*t*r)/100.0;
+	ans+=p;
+	
+	
+	return ans;
+}
+}
